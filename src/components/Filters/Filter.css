@@ -1,3 +1,15 @@
-.filter{
-    display: flex
+.filter {
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

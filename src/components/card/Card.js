@@ -1,28 +1,30 @@
-import { useEffect } from "react";
 import "./Card.css";
 
 export default function Card({ job }) {
-  useEffect(() => console.log(job));
   return (
-    <div class="card">
+    <div className="card">
       <div className="top">
-        <img src={job.logoUrl} alt="Company Logo"></img>
-        <div class="info">
-          <div>{job.companyName}</div>
-          <div>{job.jobRole}</div>
-          <div>{job.location}</div>
+        <img src={job.logoUrl} alt="Company Logo" className="logo"></img>
+        <div className="info">
+          <div className="company">{job.companyName}</div>
+          <div className="top-container">
+            <div className="top-details">{job.jobRole}</div>
+            <div className="top-details">{job.location}</div>
+          </div>
         </div>
       </div>
 
-      <div>
+      <span>Estimated Salary: </span>
+      <span>
         {job.salaryCurrencyCode} {job.minJdSalary} - {job.maxJdSalary}
-      </div>
+      </span>
+
       <div className="desc">{job.jobDetailsFromCompany}</div>
 
       {job.minExp != null ? (
         <>
-          <div class="left">Minimum Experience:</div>
-          <div class="left">{job.minExp} years</div>
+          <div className="exp">Minimum Experience:</div>
+          <div className="exp">{job.minExp} years</div>
         </>
       ) : (
         <>
@@ -30,7 +32,7 @@ export default function Card({ job }) {
           <br></br>
         </>
       )}
-      <button class="apply">Easy Apply</button>
+      <button className="apply">⚡ Easy Apply</button>
     </div>
   );
 }

@@ -1,33 +1,67 @@
 .card {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow:  
-    0px 2px 6px rgba(0, 0, 0, 0.1), /* top shadow */
-    0px 2px 6px rgba(0, 0, 0, 0.1), /* right shadow */
-    0px 2px 6px rgba(0, 0, 0, 0.1), /* bottom shadow */
-    0px 2px 6px rgba(0, 0, 0, 0.1); /* left shadow */
-    padding: 20px;
-    margin: 30px;
-    width: 230px;
-    height: 620px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1),
+    /* top shadow */ 0px 2px 6px rgba(0, 0, 0, 0.1),
+    /* right shadow */ 0px 2px 6px rgba(0, 0, 0, 0.1),
+    /* bottom shadow */ 0px 2px 6px rgba(0, 0, 0, 0.1); /* left shadow */
+  padding: 20px;
+  margin: 30px;
+  width: 230px;
+  height: 650px;
+  flex-basis: calc(15%); /* flex-shrink: 0; */
+}
 
-  }
+.top {
+  display: flex;
+  align-items: center;
+}
+.info {
+  margin: 20px;
+  text-align: left;
+}
 
-  .top{
-    display: flex;
-  }
-  .info{
-    margin:20px
-  }
+.desc {
+  height: 400px;
+  overflow: hidden;
+  margin: 10px;
+  text-align: left;
+}
+.exp {
+  text-align: left;
+  margin: 0px 10px;
+}
 
-  .desc{
-   height: 400px;
-   overflow: hidden;
-  }
-  .left{
-    text-align: left;
-  }
+.logo {
+  height: 70px;
+  width: 70px;
+}
 
-  .apply{
-    
-  }
+.company {
+  font-size: large;
+  color: #5f5f5fdd;
+  width: 160px;
+}
+
+.top-details {
+  font-size: smaller;
+}
+
+.top-container {
+  margin-top: 10px;
+}
+
+.apply {
+  width: 100%;
+  background-color: rgb(85, 239, 196);
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  padding: 8px 18px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
