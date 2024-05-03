@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/deev1207/weekday-assignment/static/css/main.91a40a82.css",
-    "main.js": "/deev1207/weekday-assignment/static/js/main.e3f8f049.js",
-    "static/js/453.21b2e6bf.chunk.js": "/deev1207/weekday-assignment/static/js/453.21b2e6bf.chunk.js",
-    "index.html": "/deev1207/weekday-assignment/index.html",
-    "main.91a40a82.css.map": "/deev1207/weekday-assignment/static/css/main.91a40a82.css.map",
-    "main.e3f8f049.js.map": "/deev1207/weekday-assignment/static/js/main.e3f8f049.js.map",
-    "453.21b2e6bf.chunk.js.map": "/deev1207/weekday-assignment/static/js/453.21b2e6bf.chunk.js.map"
+    "main.css": "/weekday-assignment/static/css/main.91a40a82.css",
+    "main.js": "/weekday-assignment/static/js/main.f3a40822.js",
+    "static/js/453.21b2e6bf.chunk.js": "/weekday-assignment/static/js/453.21b2e6bf.chunk.js",
+    "index.html": "/weekday-assignment/index.html",
+    "main.91a40a82.css.map": "/weekday-assignment/static/css/main.91a40a82.css.map",
+    "main.f3a40822.js.map": "/weekday-assignment/static/js/main.f3a40822.js.map",
+    "453.21b2e6bf.chunk.js.map": "/weekday-assignment/static/js/453.21b2e6bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91a40a82.css",
-    "static/js/main.e3f8f049.js"
+    "static/js/main.f3a40822.js"
   ]
 }
