@@ -121,7 +121,7 @@ function App() {
 
     if (document.body.clientHeight < window.innerHeight) {
       setPage((page) => page + 1);
-      loading.current = true;
+      
     }
   }
   return (
